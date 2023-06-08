@@ -3,7 +3,7 @@
 // Obtener todas las tarjetas
 var cards = document.querySelectorAll('.card');
 
-// Recorrer las tarjetas y agregar un evento de clic a cada una
+//  Recorrer las tarjetas y agregar un evento de clic a cada una
 cards.forEach(function(card) {
     card.addEventListener('click', function() {
         // Obtener el título de la tarjeta actual
